@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding: 0;
+   font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+  height:100%;
+  background-color: #2BCECE;
+
+}
+.zone{
+	display: grid;
+
+	justify-content: center;
+
+	
+}
+.header{
+	text-transform: uppercase;
+	background-color: #E4FEFE;
+}
+.cover{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	background-color: #2BCECE;
+	width: 414px;
+    }
+.button{
+	border:2px solid #E4FEFE;
+	border-radius:  20px;
+	width: 60px;
+	background-color: #E4FEFE;
+	padding: 5px 10px;
+	margin-left: 10px;
+		outline: none;
+
+}
+input{
+	width:350px;
+	border:2px solid #E4FEFE;
+	border-radius:  10px;
+	outline: none;
+	color: #2BCECE;
+	
+}
+.inputItems{
+	display: flex;
+	align-items: row;
+	padding: 10px;
+	width: 414;
+}
+li {
+	color: #E4FEFE;
+	list-style: none;
+	padding: 5px;
+	font-size: 30px;
+	}
+
+.list{
+		width: 45%;
+	}
+
+.items{
+	display: flex;
+	justify-content: space-between;
+}
+.bin{
+	width:64px;
+	height: 80px ;
+	margin: 30px;
+}
+.home{
+	width: 25px;
+	height: 25px;
+	transform: translate(-50%,10%);
+	margin-left: 15px;
+}
+.home:hover{
+	width: 28px;
+	height: 28px;
+}
+.homebtn{
+	margin: 0 0 0 20px;
+	background: none;
+	width: 25px;
+	height: 25px;
+}
+
+.button:hover{
+	background-color: #9effff;
+	border-color:  #009b9b;
+
+}
